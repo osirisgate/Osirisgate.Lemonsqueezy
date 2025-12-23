@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <UserSecretsId>ff55d01c-6f9e-4d37-b095-8e2a71a902ed</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Osirisgate.Lemonsqueezy/Osirisgate.Lemonsqueezy.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Affiliates/" />
+    <Folder Include="Checkouts/" />
+    <Folder Include="Customers/" />
+    <Folder Include="DiscountRedemptions/" />
+    <Folder Include="Discounts/" />
+    <Folder Include="Events/" />
+    <Folder Include="Files/" />
+    <Folder Include="LicenseApi/" />
+    <Folder Include="LicenseKeyInstances/" />
+    <Folder Include="OrderItems/" />
+    <Folder Include="Orders/" />
+    <Folder Include="Prices/" />
+    <Folder Include="Products/" />
+    <Folder Include="Stores/" />
+    <Folder Include="SubscriptionInvoices/" />
+    <Folder Include="SubscriptionItems/" />
+    <Folder Include="Subscriptions/" />
+    <Folder Include="UsageRecords/" />
+    <Folder Include="Users/" />
+    <Folder Include="Variants/" />
+    <Folder Include="Webhooks/" />
+  </ItemGroup>
+
+</Project>

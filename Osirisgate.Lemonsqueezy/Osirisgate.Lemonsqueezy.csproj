@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Osirisgate.Lemonsqueezy</PackageId>
+    <PackageDescription>Lightweight, developer first SDK to interact with the Lemonsqueezy API. Built with modern C#. Focused on simplicity, readability and full control.</PackageDescription>
+    <Version>1.0.0</Version>
+    <Authors>Ulrich Geraud A.</Authors>
+    <Company>Osirisgate</Company>
+    <ProjectUrl>https://github.com/osirisgate/Osirisgate.Lemonsqueezy</ProjectUrl>
+    <RepositoryUrl>https://github.com/osirisgate/Osirisgate.Lemonsqueezy.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludePackageReferencesInPackage>true</IncludePackageReferencesInPackage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.1" />
+    <PackageReference Include="Polly" Version="8.6.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
