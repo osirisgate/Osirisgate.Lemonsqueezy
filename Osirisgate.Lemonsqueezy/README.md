@@ -1,6 +1,8 @@
 # Osirisgate Lemonsqueezy C# SDK
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)
+![.NET](https://img.shields.io/badge/.NET-9.0-purple.svg)
 ![.NET](https://img.shields.io/badge/.NET-10.0-purple.svg)
 ![C#](https://img.shields.io/badge/C%23-12.0-green.svg)
 

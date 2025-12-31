@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Osirisgate.Lemonsqueezy</PackageId>
     <PackageDescription>Lightweight, developer first SDK to interact with the Lemonsqueezy API. Built with modern C#. Focused on simplicity, readability and full control.</PackageDescription>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <Authors>Ulrich Geraud A.</Authors>
     <Company>Osirisgate</Company>
     <ProjectUrl>https://github.com/osirisgate/Osirisgate.Lemonsqueezy</ProjectUrl>
